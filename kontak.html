@@ -1,31 +1,60 @@
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>&copy; <span id="year"></span> MSboutique — All rights reserved.</p>
-    <div class="socials">
-      <a href="https://wa.me/6282388301878" target="_blank">WhatsApp</a>
-      <a href="https://www.instagram.com/menuk_setiati08" target="_blank">Instagram</a>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSboutique — Kontak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">MSboutique</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="produk.html">Produk</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kontak.html" class="btn-outline">Kontak</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Mini Map Footer -->
-    <div style="margin-top:15px; text-align:center;">
-      <p>Lokasi MSboutique:</p>
-      <a href="https://maps.app.goo.gl/dU1Cr1fuKY2Ywn7h6" target="_blank" style="display:inline-block; border:2px solid #ff69b4; border-radius:8px; overflow:hidden;">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3986.0825753883128!2d101.1807778!3d-2.4796111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMsKwMjgnNDYuNiJTIDEwMcKwMTAnNTAuOCJF!5e0!3m2!1sen!2sid!4v1761907349793!5m2!1sen!2sid"
-          width="200" 
-          height="150" 
-          style="border:0;" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </a>
+  <main class="container">
+    <section class="kontak-section">
+      <h1>Hubungi Kami</h1>
+      <p style="text-align:center;">Kami siap membantu kamu — silakan kirim pesan melalui formulir atau langsung lewat WhatsApp & Instagram 💬</p>
+
+      <form>
+        <input type="text">
+        <input type="email">
+        <textarea></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      <div style="text-align:center; margin-top:20px;">
+        <p>Atau hubungi langsung:</p>
+        <a href="https://wa.me/6282388301878" target="_blank" class="wa-btn">WhatsApp</a>
+        <a href="https://www.instagram.com/menuk_setiati08" target="_blank" class="ig-btn">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> MSboutique — All rights reserved.</p>
+      <div class="socials">
+        <a href="https://wa.me/6282388301878" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/menuk_setiati08" target="_blank">Instagram</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
 
 
